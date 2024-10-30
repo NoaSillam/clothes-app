@@ -1,0 +1,58 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o App.cmi : cp ../bs/src/App.cmi
+o App.cmj : cp ../bs/src/App.cmj
+o App.cmt : cp ../bs/src/App.cmt
+o App.res : cp ../../src/App.res
+o App.resi : cp ../../src/App.resi
+o App.cmti : cp ../bs/src/App.cmti
+o Main.cmi : cp ../bs/src/Main.cmi
+o Main.cmj : cp ../bs/src/Main.cmj
+o Main.cmt : cp ../bs/src/Main.cmt
+o Main.res : cp ../../src/Main.res
+o Button.cmi : cp ../bs/src/Button.cmi
+o Button.cmj : cp ../bs/src/Button.cmj
+o Button.cmt : cp ../bs/src/Button.cmt
+o Button.res : cp ../../src/Button.res
+o Button.resi : cp ../../src/Button.resi
+o Button.cmti : cp ../bs/src/Button.cmti
+o HelloWorld.cmi : cp ../bs/src/HelloWorld.cmi
+o HelloWorld.cmj : cp ../bs/src/HelloWorld.cmj
+o HelloWorld.cmt : cp ../bs/src/HelloWorld.cmt
+o HelloWorld.res : cp ../../src/HelloWorld.res
+o Api.cmi : cp ../bs/src/components/Api.cmi
+o Api.cmj : cp ../bs/src/components/Api.cmj
+o Api.cmt : cp ../bs/src/components/Api.cmt
+o Api.res : cp ../../src/components/Api.res
+o Footer.cmi : cp ../bs/src/components/Footer.cmi
+o Footer.cmj : cp ../bs/src/components/Footer.cmj
+o Footer.cmt : cp ../bs/src/components/Footer.cmt
+o Footer.res : cp ../../src/components/Footer.res
+o Header.cmi : cp ../bs/src/components/Header.cmi
+o Header.cmj : cp ../bs/src/components/Header.cmj
+o Header.cmt : cp ../bs/src/components/Header.cmt
+o Header.res : cp ../../src/components/Header.res
+o Category.cmi : cp ../bs/src/components/Category.cmi
+o Category.cmj : cp ../bs/src/components/Category.cmj
+o Category.cmt : cp ../bs/src/components/Category.cmt
+o Category.res : cp ../../src/components/Category.res
+o ProductCard.cmi : cp ../bs/src/components/ProductCard.cmi
+o ProductCard.cmj : cp ../bs/src/components/ProductCard.cmj
+o ProductCard.cmt : cp ../bs/src/components/ProductCard.cmt
+o ProductCard.res : cp ../../src/components/ProductCard.res
+o ProduitPage.cmi : cp ../bs/src/components/ProduitPage.cmi
+o ProduitPage.cmj : cp ../bs/src/components/ProduitPage.cmj
+o ProduitPage.cmt : cp ../bs/src/components/ProduitPage.cmt
+o ProduitPage.res : cp ../../src/components/ProduitPage.res
+o ClothingList.cmi : cp ../bs/src/components/ClothingList.cmi
+o ClothingList.cmj : cp ../bs/src/components/ClothingList.cmj
+o ClothingList.cmt : cp ../bs/src/components/ClothingList.cmt
+o ClothingList.res : cp ../../src/components/ClothingList.res
+o Home.cmi : cp ../bs/src/page/Home.cmi
+o Home.cmj : cp ../bs/src/page/Home.cmj
+o Home.cmt : cp ../bs/src/page/Home.cmt
+o Home.res : cp ../../src/page/Home.res
+build install.stamp : touch App.cmi App.cmj Main.cmi Main.cmj Button.cmi Button.cmj HelloWorld.cmi HelloWorld.cmj Api.cmi Api.cmj Footer.cmi Footer.cmj Header.cmi Header.cmj Category.cmi Category.cmj ProductCard.cmi ProductCard.cmj ProduitPage.cmi ProduitPage.cmj ClothingList.cmi ClothingList.cmj Home.cmi Home.cmj 
