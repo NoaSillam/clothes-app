@@ -1,8 +1,6 @@
 // HelloWorld.res
 open Header
 open ProductCard
-open Category
-open Footer
 
 // Exemple de données pour les catégories
 let simulatedCategories = [
